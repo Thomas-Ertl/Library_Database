@@ -1,0 +1,162 @@
+html
+{
+	margin: 0;
+	padding: 0;
+	color: #aaaaaa;
+    background-image: url(images/Ellis.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+	font: normal 12px Verdana;
+}
+
+
+a:link {color: slategray; }
+
+a:visited { text-decoration: none;}
+
+a:hover, a:active { color: orangered; }
+
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal; margin: 0; padding: 10px 0; color: white; }
+
+h1 { font-size: 32px; }
+
+h2 { font-size: 28px; }
+
+ol, dl, blockquote, pre
+{
+	color: slategray;
+	margin: 20px 30px auto;
+	padding: 10px 30px;
+	line-height: 1.6em;
+	border: 1px solid black;
+	border-top: 10px solid #3D2726;
+	background-color: #E2D8BD;
+}
+
+p { margin: 0; }
+
+ul {
+    text-align: left;
+    list-style-type: square; }
+
+dt
+{
+	margin: 0;
+	color: #7799bb;
+	font-size: 16px;
+	font-weight: bold;
+	/*padding: 10px 0 2px; */
+	text-transform: uppercase;
+}
+
+dd { margin: 0; padding: 2px 0 5px; margin-bottom: 5px; border-bottom: 1px dotted #3D2726; }
+
+dd.last { border-bottom-width: 0; }
+
+
+body
+{
+	margin: 0;
+	float: left;
+	width: 100%;
+}
+
+#header
+{
+	clear: both;
+	border-top: 10px solid #E2D8BD;
+	background-color: #3D2726;
+}
+
+#navigation
+{
+	float: left;
+	width: 100%;
+	clear: both;
+	border-bottom: 5px solid #3D2726;
+	background-color: #E2D8BD;
+}
+
+#wrapper
+{
+    padding-top: 20px;
+    text-align: center;
+    /*display: inline-block;*/
+    margin: 20px auto;
+	width: 100%;
+}
+
+
+
+#header h1 { padding: 20px; }
+
+
+#navigation ul { float: left; list-style-type: none; margin: 0; padding: 0; background: none; border-width: 0; }
+
+#navigation li { float: left; }
+
+#navigation a
+{
+    color: #3D2726;
+    text-decoration: none;
+	float: left;
+	display: block;
+	padding: 5px 10px;
+}
+
+#navigation a:link,
+#navigation a:visited
+{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#navigation a:hover,
+#navigation a:active
+{
+	color: #E2D8BD;
+	background-color: #3D2726;
+}
+
+li#home a:hover,
+li#home a:active
+{
+	background-position: 0 -3px;
+}
+
+li#login a:hover,
+li#login a:active
+{
+	/*background-position: 0 1px; */
+}
+
+button {
+  /*float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;*/
+    padding:1px 10px;
+    color: slategray;
+  background: none;
+  border: 1px solid slategray;
+  cursor: pointer;
+}
+
+
+
+button:hover{
+    color:#E2D8BD;
+    background-color: #3D2726;
+    font-weight: bold;
+}
+
+#form{
+    margin-top:5px;
+}
+
+#form div{
+    padding: 2px;
+}
